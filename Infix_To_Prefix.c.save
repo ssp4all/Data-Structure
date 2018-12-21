@@ -37,10 +37,10 @@ main()
     strrev(infx);
     while( (ch=infx[i++]) != '\0')
     {
-        if( ch == ')')
+        if( ch == ')') 
             push(ch);
         else
-            if(isalnum(ch))
+            if(isalnum(ch)) 
                 prfx[k++]=ch;
             else
                 if( ch == '(')

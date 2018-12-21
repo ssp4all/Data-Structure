@@ -163,10 +163,10 @@ void search()
     scanf("%d",&n);
 
     int temp;
-    int flag = 0;
+    int flag = 1;
     temp = front;
-    printf("%d",front);
-    printf("%d",rear);
+    printf(rear);
+    printf("%d",)
     while(q[temp] != n && temp<rear)
     {
         if(q[temp] == n)
